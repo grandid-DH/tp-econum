@@ -8,6 +8,10 @@
       "dc web cloud"
       "main1 main2 main3"
       "Footer Footer Footer";
+    box-sizing: border-box;
+    background: #000000;
+    height: 1080px;
+    position: relative;
   }
   
   .Footer { grid-area: Footer; 
@@ -17,19 +21,498 @@
     position: absolute;
     left: 0px;
     top: 991px;
-}
+  }
+  .Txt_Footer {
+      color: #ffffff;
+      text-align: left;
+      font-family: "Inter-Regular", sans-serif;
+      font-size: 32px;
+      font-weight: 400;
+      position: absolute;
+      left: 120px;
+      top: 1019px;
+      width: 1096px;
+      height: 54px;
+    }
+  .logo-ademe {
+      width: 78px;
+      height: 84px;
+      position: absolute;
+      left: 29px;
+      top: 994px;
+      overflow: visible;
+  }
+
   
-  .dc { grid-area: dc; }
+  .dc { grid-area: dc;} 
+  .rectangle-1 {
+      background: #b7ce66;
+      width: 640px;
+      height: 237px;
+      position: absolute;
+      left: 0px;
+      top: 156px;
+  }
+    .dc {
+      width: 237px;
+      height: 206px;
+      position: absolute;
+      left: 213px;
+      top: 163px;
+      object-fit: cover;
+      aspect-ratio: 237/206;
+    }
+
   
   .web { grid-area: web; }
+  .rectangle-4 {
+    background: #b7ce66;
+    width: 640px;
+    height: 237px;
+    position: absolute;
+    left: 640px;
+    top: 156px;
+  }
+  .web-removebg-preview {
+    width: 318px;
+    height: 206px;
+    position: absolute;
+    left: 773px;
+    top: 163px;
+    object-fit: cover;
+    aspect-ratio: 318/206;
+  }
   
   .cloud { grid-area: cloud; }
+  .rectangle-5 {
+    background: #b7ce66;
+    width: 640px;
+    height: 237px;
+    position: absolute;
+    left: 1280px;
+    top: 156px;
+  }
+  .cloud {
+    width: 330px;
+    height: 206px;
+    position: absolute;
+    left: 1435px;
+    top: 163px;
+    object-fit: cover;
+  }
   
   .main1 { grid-area: main1; }
+  .co-2-1 {
+    width: 110px;
+    height: 93px;
+    position: absolute;
+    left: 33px;
+    top: 581px;
+    object-fit: cover;
+    aspect-ratio: 110/93;
+  }
+  .rectangle-6 {
+    background: #c8d6a2;
+    border-style: solid;
+    border-color: #085820;
+    border-width: 1px;
+    width: 652px;
+    height: 598px;
+    position: absolute;
+    left: 0px;
+    top: 393px;
+  }
+  .ampoule-1 {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 12px;
+    top: 412px;
+    object-fit: cover;
+    aspect-ratio: 1;
+  }
+  .Txt1_main1 {
+    color: #000000;
+    text-align: left;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    position: absolute;
+    left: 120px;
+    top: 427px;
+    width: 464px;
+    height: 111px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .Txt2_main1 {
+    color: #000000;
+    text-align: left;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    position: absolute;
+    left: 167px;
+    top: 567px;
+    width: 441px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .reduire-1 {
+    width: 178px;
+    height: 168px;
+    position: absolute;
+    left: 228px;
+    top: 779px;
+    object-fit: cover;
+    aspect-ratio: 178/168;
+  }
+  .T1M1 {
+    color: #000000;
+    text-align: center;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 19px;
+    top: 734px;
+    width: 194px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .T2M1 {
+    color: #000000;
+    text-align: center;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 421px;
+    top: 739px;
+    width: 194px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .T4M1 {
+    color: #000000;
+    text-align: center;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 24px;
+    top: 888px;
+    width: 194px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .T3M1 {
+    color: #000000;
+    text-align: center;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 422px;
+    top: 888px;
+    width: 194px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
   .main2 { grid-area: main2; }
+  .rectangle-7 {
+    background: #c8d6a2;
+    border-style: solid;
+    border-color: #085820;
+    border-width: 1px;
+    width: 640px;
+    height: 598px;
+    position: absolute;
+    left: 652px;
+    top: 393px;
+  }
+  .ampoule-2 {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 668px;
+    top: 412px;
+    object-fit: cover;
+    aspect-ratio: 1;
+  }
+  .co-2-2 {
+    width: 110px;
+    height: 93px;
+    position: absolute;
+    left: 677px;
+    top: 574px;
+    object-fit: cover;
+    aspect-ratio: 110/93;
+  }
+  .Txt1_main2 {
+    color: #000000;
+    text-align: left;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    position: absolute;
+    left: 803px;
+    top: 418px;
+    width: 431px;
+    height: 129px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .Txt2_main2 {
+    color: #000000;
+    text-align: left;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    position: absolute;
+    left: 821px;
+    top: 553px;
+    width: 439px;
+    height: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .reduire-2 {
+    width: 178px;
+    height: 168px;
+    position: absolute;
+    left: 871px;
+    top: 774px;
+    object-fit: cover;
+    aspect-ratio: 178/168;
+  }
+  .T1M2 {
+    color: #000000;
+    text-align: center;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 681px;
+    top: 747px;
+    width: 183px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .T4M2 {
+    color: #000000;
+    text-align: center;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 678px;
+    top: 894px;
+    width: 183px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  T2M2 {
+    color: #000000;
+    text-align: center;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 1078px;
+    top: 714px;
+    width: 183px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .T3M2 {
+    color: #000000;
+    text-align: center;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 1085px;
+    top: 894px;
+    width: 183px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
   .main3 { grid-area: main3; }
+  .rectangle-9 {
+    background: #c8d6a2;
+    border-style: solid;
+    border-color: #085820;
+    border-width: 1px;
+    width: 640px;
+    height: 598px;
+    position: absolute;
+    left: 1292px;
+    top: 393px;
+  }
+  .ampoule-3 {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 1300px;
+    top: 403px;
+    object-fit: cover;
+    aspect-ratio: 1;
+  }
+  .co-2-3 {
+    width: 110px;
+    height: 93px;
+    position: absolute;
+    left: 1317px;
+    top: 564px;
+    object-fit: cover;
+    aspect-ratio: 110/93;
+  }
+  .Txt1_main3 {
+    color: #000000;
+    text-align: left;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    position: absolute;
+    left: 1437px;
+    top: 422px;
+    width: 395px;
+    height: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .Txt2_main3 {
+    color: #000000;
+    text-align: left;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    position: absolute;
+    left: 1453px;
+    top: 551px;
+    width: 407px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .reduire-3 {
+    width: 178px;
+    height: 168px;
+    position: absolute;
+    left: 1496px;
+    top: 779px;
+    object-fit: cover;
+    aspect-ratio: 178/168;
+  }
+  .T1M3 {
+    color: #000000;
+    text-align: center;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 1323px;
+    top: 721px;
+    width: 176px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .T2M3 {
+    color: #000000;
+    text-align: center;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 1659px;
+    top: 721px;
+    width: 176px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .T4M3 {
+    color: #000000;
+    text-align: center;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 1313px;
+    top: 884px;
+    width: 176px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .T3M3 {
+    color: #000000;
+    text-align: center;
+    font-family: "ComicSansMs-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 1677px;
+    top: 879px;
+    width: 176px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
   .Titre { grid-area: Titre; }
+  .banner {
+    width: 1920px;
+    height: 156px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+  }
+  .titre {
+    color: #4b5943;
+    text-align: center;
+    font-family: "WendyOne-Regular", sans-serif;
+    font-size: 128px;
+    font-weight: 400;
+    position: absolute;
+    left: 322px;
+    top: 27px;
+    width: 1278px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
