@@ -1,0 +1,35 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.7fr 0.6fr 2.4fr 0.3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Titre Titre Titre"
+      "dc web cloud"
+      "main1 main2 main3"
+      "Footer Footer Footer";
+  }
+  
+  .Footer { grid-area: Footer; 
+    background-color: #085820;
+    width: 1920px;
+    height: 89px;
+    position: absolute;
+    left: 0px;
+    top: 991px;
+}
+  
+  .dc { grid-area: dc; }
+  
+  .web { grid-area: web; }
+  
+  .cloud { grid-area: cloud; }
+  
+  .main1 { grid-area: main1; }
+  
+  .main2 { grid-area: main2; }
+  
+  .main3 { grid-area: main3; }
+  
+  .Titre { grid-area: Titre; }
+  
