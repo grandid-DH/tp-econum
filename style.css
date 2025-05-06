@@ -1,4 +1,4 @@
-.container {  display: grid;
+.parent {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.7fr 0.6fr 2.4fr 0.3fr;
     gap: 0px 0px;
@@ -13,6 +13,32 @@
     height: 1080px;
     position: relative;
   }
+
+    
+.banner {
+  width: 1920px;
+  height: 156px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+  
+.titre {
+  color: #4b5943;
+  text-align: center;
+  font-family: "WendyOne-Regular", sans-serif;
+  font-size: 128px;
+  font-weight: 400;
+  position: absolute;
+  left: 322px;
+  top: 27px;
+  width: 1278px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
   
   .Footer { grid-area: Footer; 
     background-color: #085820;
@@ -44,7 +70,6 @@
   }
 
   
-  .dc { grid-area: dc;} 
   .rectangle-1 {
       background: #b7ce66;
       width: 640px;
@@ -53,7 +78,7 @@
       left: 0px;
       top: 156px;
   }
-    .dc {
+  .dc {
       width: 237px;
       height: 206px;
       position: absolute;
@@ -61,10 +86,9 @@
       top: 163px;
       object-fit: cover;
       aspect-ratio: 237/206;
-    }
+  }
 
   
-  .web { grid-area: web; }
   .rectangle-4 {
     background: #b7ce66;
     width: 640px;
@@ -83,7 +107,6 @@
     aspect-ratio: 318/206;
   }
   
-  .cloud { grid-area: cloud; }
   .rectangle-5 {
     background: #b7ce66;
     width: 640px;
@@ -101,7 +124,6 @@
     object-fit: cover;
   }
   
-  .main1 { grid-area: main1; }
   .co-2-1 {
     width: 110px;
     height: 93px;
@@ -231,8 +253,7 @@
     justify-content: center;
   }
   
-  .main2 { grid-area: main2; }
-  .rectangle-7 {
+ .rectangle-7 {
     background: #c8d6a2;
     border-style: solid;
     border-color: #085820;
@@ -361,8 +382,7 @@
     justify-content: center;
   }
   
-  .main3 { grid-area: main3; }
-  .rectangle-9 {
+ .rectangle-9 {
     background: #c8d6a2;
     border-style: solid;
     border-color: #085820;
@@ -490,29 +510,4 @@
     align-items: center;
     justify-content: center;
   }
-  
-  .Titre { grid-area: Titre; }
-  .banner {
-    width: 1920px;
-    height: 156px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    object-fit: cover;
-  }
-  .titre {
-    color: #4b5943;
-    text-align: center;
-    font-family: "WendyOne-Regular", sans-serif;
-    font-size: 128px;
-    font-weight: 400;
-    position: absolute;
-    left: 322px;
-    top: 27px;
-    width: 1278px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
+
